@@ -60,17 +60,13 @@ button {
 button:hover {
   background-color: #ff3c2f;
 }
-/* Add more CSS for styling additional sections and elements as needed */
-/* Basic styles for demonstration purposes */
-/* Same as before */
 
-/* Update the logo size and styling */
 .logo img {
-    width: 600px; /* Adjust the size of the placeholder logo */
+    width: 600px;
     height: auto;
   }
   
-  /* Additional styling for the content */
+  
   .content {
     padding: 30px;
   }
@@ -82,10 +78,7 @@ button:hover {
     width: 200px;
     display: inline-block;
   }
-  /* Basic styles for demonstration purposes */
-/* Same as before */
 
-/* Update the logo size and add animation */
 .logo {
     display: flex;
     align-items: center;
@@ -94,16 +87,16 @@ button:hover {
   
   .letter {
     font-size: 10em;
-    color: rgb(135, 8, 8); /* Change the color of the letter */
+    color: rgb(135, 8, 8); 
     animation: moveLetter 6s infinite alternate;
   }
-  /* Define the animation */
+ 
   @keyframes moveLetter {
     from {
       transform: translateX(0);
     }
     to {
-      transform: translateX(30px); /* Change this value to adjust the movement */
+      transform: translateX(30px); 
     }
   }
   .tv-shows {
@@ -123,7 +116,7 @@ button:hover {
   }
   
   .show-card img {
-    width: 100%; /* Adjust as needed */
+    width: 100%; 
     height: auto;
     border-radius: 5px;
   }
@@ -136,5 +129,6 @@ button:hover {
   .show-card p {
     font-size: 1em;
   }
+  
   
   
