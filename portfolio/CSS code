@@ -1,0 +1,130 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+
+
+header {
+  background-color: #2ac262;
+  padding: 20px;
+  text-align: center;
+}
+.portfolio-image {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    /* Additional styling if required */
+  }
+
+ /* Style for the computer cartoon */
+
+.computer-cartoon {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.computer-cartoon img {
+  width: 200px; /* Adjust dimensions as needed */
+  height: auto;
+}
+.calculator-cartoon {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.calculator-cartoon img {
+  width: 200px; /* Adjust dimensions as needed */
+  height: auto;
+}
+.todolist-cartoon {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.todolist-cartoon img {
+  width: 200px; /* Adjust dimensions as needed */
+  height: auto;
+}
+/* Basic styling */
+.container {
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #020202; /* Horizontal line style */
+  margin: 20px 0; /* Spacing around the line */
+}
+
+
+
+
+  .certificates {
+    padding: 20px;
+  }
+  
+  .certificate-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .certificate {
+    border: 1px solid #030303;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .certificate img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #060606;
+}
+
+section {
+  padding: 20px;
+}
+/* Style for the Instagram link */
+.social-media {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media a {
+  color: #d438f0; /* Instagram brand color */
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #073f0b;
+  color: #fff;
+}
