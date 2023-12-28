@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>welcome to my portfolio</title>
+  <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+  </head>
+  
+<body>
+    <body style="background-color: rgb(168, 218, 142);">
+        <!-- Your content here -->
+      </body>
+  <header>
+    <h1>WELCOME TO MY PORTFOLIO</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#catchy">  </a></li>
+        
+      </ul>
+    </nav>
+    <img src="my photo.jpg" alt="my image" class="portfolio-image">
+  </header>
+  <hr>
+  <section id="about">
+    <h1>WHO AM I?</h1>
+    <p>Hey there! I'm <b>Shibagni Bhattacharjee</b>, currently diving into the exciting world of B.Tech CSE at the <b>University of Engineering and Management</b>. I had a solid foundation thanks to my CBSE schooling – it really set the stage for my journey in <b>computer science and engineering</b>.
+      Jaipur was a blast for me as I took on various courses to expand my horizons. Those experiences were gold! They shaped my understanding and added a whole toolbox of skills to my repertoire. Learning there wasn't just about textbooks; it was hands-on and dynamic, which totally fired up my passion.
+      I'm always on the lookout for new knowledge. Whether it's diving into coursework, getting involved in research, or applying what I've learned, I'm all in. Staying updated with the latest tech trends keeps me buzzing, and I love exploring how those advancements apply in the real world.
+      But it's not just about solo learning for me. I thrive when collaborating with others. Team settings? Count me in! I'm all about sharing ideas, pooling our strengths, and solving challenges together. Connecting with peers, learning from their perspectives – it's where the real magic happens.
+      My journey at the University of Engineering and Management is just one part of my story. Combined with my diverse educational background and my hunger to soak up all things tech, I'm on this journey to rock the world of computer science and engineering!
+      Keep learning, keep growing, and let's code some incredible stuff together! </p>
+  </section>
+  <section id="projects">
+    <hr>
+    <h1>PROJECTS</h1>
+    <p>Here are my projects:</p>
+    <ul>
+  
+      <li>
+        <a href="https://github.com/ShibagniBhattacharjee06/CODSOFT.git" target="_blank">projects</a>
+      </li>
+      
+    </ul>
+
+    <section id="  ">
+    <div class="computer-cartoon">
+      <img src="computer.jpg" alt="Computer Cartoon">
+    </div>
+    <div class="text">
+      <h1>WHAT MY PROJECTS ARE ABOUT??</h1>
+      <p>PROJECT DESCRIPTION </p>
+    </div>
+    <div class="calculator-cartoon">
+  <img src="calculator.jpg"alt="image2">
+  </div>
+  <div class="text">
+    <h3>Description of the calculator</h3>
+    <p>created a calculator in Python involves building a program that performs basic arithmetic operations like addition, subtraction, multiplication, and division. It typically takes user input for numbers and the desired operation, then computes and displays the result. This project often utilizes functions, conditional statements, and loops to handle user interactions and perform calculations accurately. The interface could be text-based in the terminal or a simple graphical user interface (GUI) using libraries like Tkinter.</p>
+  </div>
+  <div class="todolist-cartoon">
+    <img src="to do list.jpg">
+  </div>
+  <div class="text">
+    <h3>Description of the to-do-list</h3>
+    <p>Developed a to-do list application in Python leveraging its object-oriented programming capabilities. The application allows users to add tasks, mark them as complete, delete tasks, and display the list of pending and completed items. Implemented a user-friendly interface using Python's tkinter library for seamless interaction. Incorporated functionality to save tasks to a text file for persistence between sessions, ensuring that users can access their to-do list across multiple sessions."</p>
+  </div>
+  </div>
+  </section>
+<hr>
+  <!-- Inside the main section of your HTML -->
+<section id="certificates">
+  <h2>CERTIFICATES</h2>
+  <div class="certificate-gallery">
+    <!-- Place to display certificates -->
+    <div class="certificate">
+      <img src="1.jpg" alt="Certificate 1">
+      <!-- Add any additional information or description -->
+    </div>
+    <div class="certificate">
+      <img src="2.jpg" alt="Certificate 2">
+      <!-- Add any additional information or description -->
+    </div>
+    <!-- Add more certificate divs as needed -->
+    <div class="certificate">
+      <img src="3.jpg" alt="Certificate 2">
+      <!-- Add any additional information or description -->
+    </div>
+    <!-- Add more certificate divs as needed -->
+    <div class="certificate">
+      <img src="4.jpg" alt="Certificate 2">
+      <!-- Add any additional information or description -->
+    </div>
+    <!-- Add more certificate divs as needed -->
+    <div class="certificate">
+      <img src="5.jpg" alt="Certificate 2">
+      <!-- Add any additional information or description -->
+    </div>
+    <!-- Add more certificate divs as needed -->
+    <div class="certificate">
+      <img src="6.jpg" alt="Certificate 2">
+      <!-- Add any additional information or description -->
+    </div>
+    <!-- Add more certificate divs as needed -->
+    <div class="certificate">
+      <img src="7.jpg" alt="Certificate 2">
+      <!-- Add any additional information or description -->
+    </div>
+    <!-- Add more certificate divs as needed -->
+  </div>
+</section>
+<hr>
+<section id="contact">
+    <h2>CONTACT</h2>
+    <ul class="contact-list">
+      <li>
+        <i class="fas fa-envelope"></i> <a href="mailto:bhattacharjeesagshi1234@gmail.com">Contact Me</a>
+
+      </li>
+      <li>
+        <i class="fas fa-phone"></i> <a href="mob: 8787636824">8787636824</a>
+        <div class="social-media">
+          <a href="https://www.instagram.com/pain_tdreams?igsh=ODA1NTc5OTg5Nw==" target="_blank">Follow me on Instagram</a>
+        </div>
+      </div>
+      </li>
+    
+    </ul>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 ShibagniBhattacharjee</p>
+  </footer>
+</body>
+</html>
+
