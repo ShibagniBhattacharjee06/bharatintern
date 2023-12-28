@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix-like Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+          <div class="logo">
+           
+            <div class="letter">NETFLIX CLONE</div>
+          </div>
+          <ul>
+           
+          </ul>
+        </nav>
+      </header>
+    
+  <header>
+   
+    <nav>
+      <div class="logo">
+        <img src="netflix.jpg" alt="Netflix Logo">
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Latest</a></li>
+       
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  
+    <section class="hero">
+      <h1>Welcome to Our Streaming Service</h1>
+      <p>Watch unlimited TV shows and movies.</p>
+      <button>Sign Up</button>
+    </section>
+
+    
+    <section class="content">
+      <h2>Popular Shows</h2>
+      
+      <div class="show">zero</div>
+      <div class="show">Tiger3</div>
+      <div class="show">pathaan</div>
+     
+    </section>
+  </main>
+  <section class="tv-shows">
+    <h2>TV Shows</h2>
+    <div class="show-card">
+      <img src="m1.jpg" alt="Show 1">
+      <h3>Show 1 Title</h3>
+      <p>The beloved comedy-mystery returns for its third season, with Charles-Haden, Oliver, and Mabel once again investigating a murder in their apartment building. This time, the victim is a Broadway actor, and the stakes are higher than ever.</p>
+    </div>
+    <div class="show-card">
+      <img src="m2.jpg" alt="Show 2">
+      <h3>Show 2 Title</h3>
+      <p>Hollywood" is a Netflix TV show created by Ryan Murphy and Ian Brennan. Set in post-World War II era, the series follows a group of aspiring actors and filmmakers as they navigate the glamour and challenges of the entertainment industry. It explores themes of ambition, power dynamics, and the pursuit of success while shedding light on the societal norms and prejudices of that time, particularly regarding race, sexuality, and gender. With a mix of fictional characters and real-life Hollywood figures, the show reimagines history and offers a blend of drama, romance, and intrigue against the backdrop of the iconic film industry.
+
+
+
+
+
+
+      </p>
+    </div>
+    <!-- Add more show cards -->
+  </section>
+</main>
+
+  <footer>
+    
+    <p>&copy; 2023 netflix clone</p>
+  </footer>
+</body>
+</html>
+
