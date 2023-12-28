@@ -1,0 +1,140 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #f44336;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3c2f;
+}
+/* Add more CSS for styling additional sections and elements as needed */
+/* Basic styles for demonstration purposes */
+/* Same as before */
+
+/* Update the logo size and styling */
+.logo img {
+    width: 600px; /* Adjust the size of the placeholder logo */
+    height: auto;
+  }
+  
+  /* Additional styling for the content */
+  .content {
+    padding: 30px;
+  }
+  
+  .show {
+    border: 1px solid #b7841d;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    display: inline-block;
+  }
+  /* Basic styles for demonstration purposes */
+/* Same as before */
+
+/* Update the logo size and add animation */
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .letter {
+    font-size: 10em;
+    color: rgb(135, 8, 8); /* Change the color of the letter */
+    animation: moveLetter 6s infinite alternate;
+  }
+  /* Define the animation */
+  @keyframes moveLetter {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(30px); /* Change this value to adjust the movement */
+    }
+  }
+  .tv-shows {
+    padding: 20px;
+  }
+  
+  .tv-shows h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .show-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .show-card img {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .show-card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .show-card p {
+    font-size: 1em;
+  }
+  
+  
